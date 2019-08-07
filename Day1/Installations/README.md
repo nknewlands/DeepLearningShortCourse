@@ -44,7 +44,7 @@ The MNIST dataset is a set of 28 x 28 pixels images of handwritten digits (0-9) 
 This is considered as the * Hello world * of deep learning.and contains 70,000 annotated images. 
 A normal accuracy of >98% is expected using the default parameters.
 
-![Sample image of the MNIST dataset][MNIST]
+![Sample image of the MNIST dataset](https://github.com/nknewlands/DeepLearningShortCourse/raw/master/Day1/Installations/mnist.png)
 
 Keras + Tensorflow GPU + python
 --------------------------------
@@ -56,12 +56,12 @@ Keras + Tensorflow + R using RStudio
 ------------------------------------
 
 1. Open RStudio and navigate to the Session -> Set working directory -> Choose Directory
-![Changing the RStudio session][RStudio]
+![Changing the RStudio session](https://github.com/nknewlands/DeepLearningShortCourse/raw/master/Day1/Installations/RStudio_session.png)
 2. Select the directory Day1\Installations
 3. Open the file `test_keras.R`
+4. Select all the lines in the test_keras.R document (<kbd>Ctrl</kbd>+<kbd>A</kbd>)
+5. Press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> or the * Run code * button ![Run code button] (https://github.com/nknewlands/DeepLearningShortCourse/raw/master/Day1/Installations/RStudio_runcode.png) to execute the test. 
 
-
-References----------
+References
+----------
 [LeCun et al. 1998] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. "Gradient-based learning applied to document recognition." Proceedings of the IEEE, 86(11):2278-2324, November 1998. (http://yann.lecun.com/exdb/mnist/)
-[RStudio]: https://github.com/nknewlands/DeepLearningShortCourse/raw/master/Day1/Installations/RStudio_session.png "Select session in R Studio"
-[MNIST]:  https://github.com/nknewlands/DeepLearningShortCourse/raw/master/Day1/Installations/mnist.png "Mnist"
