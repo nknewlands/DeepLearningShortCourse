@@ -48,9 +48,10 @@ A normal accuracy of >98% is expected using the default parameters.
 
 Keras + Tensorflow GPU + python
 --------------------------------
-1. Go into the Day1\Installations
+1. Navigate to the Day1\Installations folder
 2. Open a command line prompt
-3. Run: `python test_keras.py`
+3. Activate the anaconda deeplearning environment using `conda activate deeplearning`
+4. Run: `python test_keras.py`
 
 Keras + Tensorflow + R using RStudio
 ------------------------------------
