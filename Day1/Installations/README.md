@@ -36,8 +36,15 @@ Keras + Tensorflow + R using RStudio
 8. Type: `install_keras()` or `install_keras(tensorflow = "gpu")`
 9. Type: `install.package(“imager”)`
 
-Test the deep learning environment using the MNIST dataset (LeCun et al. 1998).
+Test the deep learning environment using the MNIST dataset [LeCun et al. 1998]
 -------------------------------------------------------------------------------
+* Note: An internet connection is require to download this dataset *
+
+The MNIST dataset is a set of 28 x 28 pixels images of handwritten digits (0-9) classified into 10 classes. 
+This is considered as the * Hello world * of deep learning.and contains 70,000 annotated images. 
+A normal accuracy of >98% is expected using the default parameters.
+
+![Sample image of the MNIST dataset][MNIST]
 
 Keras + Tensorflow GPU + python
 --------------------------------
@@ -49,8 +56,12 @@ Keras + Tensorflow + R using RStudio
 ------------------------------------
 
 1. Open RStudio and navigate to the Session -> Set working directory -> Choose Directory
+![Changing the RStudio session][RStudio]
 2. Select the directory Day1\Installations
 3. Open the file `test_keras.R`
 
 
+References----------
 [LeCun et al. 1998] Y. LeCun, L. Bottou, Y. Bengio, and P. Haffner. "Gradient-based learning applied to document recognition." Proceedings of the IEEE, 86(11):2278-2324, November 1998. (http://yann.lecun.com/exdb/mnist/)
+[RStudio]: https://github.com/nknewlands/DeepLearningShortCourse/raw/master/Day1/Installations/RStudio_session.png "Select session in R Studio"
+[MNIST]:  https://github.com/nknewlands/DeepLearningShortCourse/raw/master/Day1/Installations/mnist.png "Mnist"
