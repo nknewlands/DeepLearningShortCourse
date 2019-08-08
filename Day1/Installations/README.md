@@ -15,9 +15,9 @@ Keras + Tensorflow GPU + python*
 2. Open a terminal
 3. Type: `conda create -y --name deeplearning` to create a new conda environment
 4. Type: `conda activate deeplearning` to activate this new environment
-5. Type: `conda install -c anaconda -y keras pandas scikit-learn spyder opencv`
+5. Type: `conda install -c anaconda -y keras pandas scikit-learn spyder opencv pillow`
  OR 
-          `conda install -c anaconda -y keras-gpu pandas scikit-learn spyder opencv`
+          `conda install -c anaconda -y keras-gpu pandas scikit-learn spyder opencv pillow`
 6. Type: `conda install -y -c conda-forge matplotlib`
 
 *Alternative: Use google collaboratory https://colab.research.google.com/
