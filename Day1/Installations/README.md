@@ -18,6 +18,7 @@ Keras + Tensorflow GPU + python*
 5. Type: `conda install -c anaconda -y keras pandas scikit-learn spyder opencv pillow`
  OR 
           `conda install -c anaconda -y keras-gpu pandas scikit-learn spyder opencv pillow`
+ if you have a compatible nvidia gpu (https://developer.nvidia.com/cuda-gpus).
 6. Type: `conda install -y -c conda-forge matplotlib`
 
 *Alternative: Use google collaboratory https://colab.research.google.com/
