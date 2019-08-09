@@ -23,6 +23,9 @@ Keras + Tensorflow GPU + python*
 
 *Alternative: Use google collaboratory https://colab.research.google.com/
 
+
+** Alternative2: the files dl_windows.yml and dl_linux.yml contain the conda environment definition. To use them to create your conda environment, use the command: ` conda env create --name deeplearning --file FILE.yml` where FILE.yml is either dl_windows.yml or dl_linux.yml.
+
 Keras + Tensorflow + R using RStudio
 ------------------------------------
 
