@@ -65,7 +65,7 @@ Keras + Tensorflow + R using RStudio
 2. Select the directory Day1\Installations
 3. Open the file `test_keras.R`
 4. Select all the lines in the test_keras.R document (<kbd>Ctrl</kbd>+<kbd>A</kbd>)
-5. Press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> or the * Run code * button ![Run code button] (https://github.com/nknewlands/DeepLearningShortCourse/raw/master/Day1/Installations/RStudio_runcode.png) to execute the test. 
+5. To run the code, press <kbd>Ctrl</kbd>+<kbd>Enter</kbd> or the * Run code * button ![Run code button](https://github.com/nknewlands/DeepLearningShortCourse/raw/master/Day1/Installations/RStudio_runcode.png)
 
 References
 ----------
