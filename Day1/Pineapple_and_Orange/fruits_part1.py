@@ -257,5 +257,5 @@ results.to_csv("predicted.csv", sep=";")
 #
 # 1. Try to adjust the batch size and the number of epoch
 # 2. Add mode layers to the CNN
-# 3. Try to increase the number of samples (see fruits_300.zip and fruits_500.zip)
+# 3. Try to increase the number of samples (see fruits_300.zip and fruits_400.zip)
 # 4. Part 2. Use pre-trained neural networks
