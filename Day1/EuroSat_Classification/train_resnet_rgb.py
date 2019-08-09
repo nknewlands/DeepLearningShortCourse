@@ -39,7 +39,7 @@ def number_of_files(dirname):
 	return cpt
 
 ################################################################################ 
-# DÉFINITION DES DONNÉES D'ENTRÉE                                              #
+# DATASETS DEFINITION                                                          #
 ################################################################################
 train_data_dir = 'EuroSatRGB_training'
 validation_data_dir = 'EuroSatRGB_validation'
@@ -52,8 +52,7 @@ img_width, img_height = 64, 64
 
 epochs_pre = 10      # Pre-training epoch 
 epochs_last = 20     # Complete model epoch
-batch_size = 64 
-
+batch_size = 64      # Batch size (adjust according to your avail. memory)
 
 ################################################################################ 
 # MODEL DEFINITION                                                             #
