@@ -12,6 +12,7 @@ dependencies:
   - astor=0.7.1=py37_0
   - blas=1.0=mkl
   - blast=2.9.0=pl526h979a64d_3
+  - biopython-1.74=py37h516909a_0
   - bzip2=1.0.8=h516909a_0
   - c-ares=1.15.0=h7b6447c_1
   - ca-certificates=2019.5.15=0
