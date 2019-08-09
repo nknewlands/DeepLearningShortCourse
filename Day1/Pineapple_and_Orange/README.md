@@ -4,4 +4,6 @@ This directory includes files for the *Practical examples - Classification of im
 
 This tutorial is in two parts.
 
-Part 1 is a basic CNN for the classification of oranges and pineapple. Part 2 is on the use of pre-trained networks such as MobileNet (https://arxiv.org/abs/1801.04381). See https://keras.io/applications/#documentation-for-individual-models
+Part 1 is a basic CNN for the classification of oranges and pineapple. 
+
+Part 2 is on the use of pre-trained networks such as MobileNet (https://arxiv.org/abs/1801.04381). See https://keras.io/applications/#documentation-for-individual-models
