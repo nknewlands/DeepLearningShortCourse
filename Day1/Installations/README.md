@@ -38,7 +38,7 @@ Keras + Tensorflow + R using RStudio
 6. Type: `install.packages("keras")`
 7. Type: `library(keras)`
 8. Type: `install_keras()` or `install_keras(tensorflow = "gpu")`
-9. Type: `install.package(“imager”)`
+9. Type: `install.packages("imager")`
 
 Test the deep learning environment using the MNIST dataset [LeCun et al. 1998]
 -------------------------------------------------------------------------------
