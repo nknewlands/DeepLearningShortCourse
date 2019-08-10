@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #
-# Fruits part 1. 
-# Inpired by the code from Francois, Chollet. 
+# Fruits part 1. Code in python
+# Inpired by the code from Francois Chollet. 
 #                     "Deep learning with Python." Manning (2018) 362 pages.
 # 
 # From François Chollet's book:
@@ -31,14 +31,14 @@
 #               fruits_300.zip
 #               ---------------
 #               Training  : 210 (70%)
-#               Validation: 45 (15%)
+#               Validation: 45  (15%)
 #               Test      : 45
 #
-#               fruits_500.zip
+#               fruits_400.zip
 #               ---------------
-#               Training  : 350 (70%)
-#               Validation: 75 (15%)
-#               Test      : 75
+#               Training  : 280 (70%)
+#               Validation: 60  (15%)
+#               Test      : 60
 ###############################################################################
 # GLOBAL IMPORT                                                               #
 ###############################################################################
@@ -169,7 +169,8 @@ test_generator = val_datagen.flow_from_directory(
 # RUN MODEL                                                                    #
 ################################################################################
 csv_logger = CSVLogger('model_log.csv', append=True, separator=';')
-checkpointer = ModelCheckpoint(filepath='model.{epoch:02d}-{val_acc:.2f}.hdf5', verbose=1, monitor='val_loss', save_best_only=True)
+checkpointer = ModelCheckpoint(filepath='model.{epoch:02d}-{val_acc:.2f}.hdf5', 
+                               verbose=1, monitor='val_loss', save_best_only=True)
 
 original_hist=model.fit_generator(
     train_generator,
