@@ -10,8 +10,7 @@ Download the examples
 Keras + Tensorflow GPU + python* 
 --------------------------------
 
-1. Installation on Linux
-   Install miniconda for python 3.7 (https://docs.conda.io/en/latest/miniconda.html) following the default options for your OS.
+1. Install miniconda for python 3.7 (https://docs.conda.io/en/latest/miniconda.html) following the default options for your OS.
 2. Open a terminal
 3. Type: `conda create -y --name deeplearning` to create a new conda environment
 4. Type: `conda activate deeplearning` to activate this new environment
@@ -24,21 +23,29 @@ Keras + Tensorflow GPU + python*
 *Alternative: Use google collaboratory https://colab.research.google.com/
 
 
-** Alternative2: the files dl_windows.yml and dl_linux.yml contain the conda environment definition. To use them to create your conda environment, use the command: ` conda env create --name deeplearning --file FILE.yml` where FILE.yml is either dl_windows.yml or dl_linux.yml.
+** Alternative2: the files dl_windows.yml, dl_linux.yml, dl_R.yml contain the conda environment definition. To use them to create your conda environment, use the command: ` conda env create --name deeplearning --file FILE.yml` where FILE.yml is either dl_windows.yml or dl_linux.yml.
 
 Keras + Tensorflow + R using RStudio
 ------------------------------------
 
 1. Go to https://cran.r-project.org/ and download R found in the “base” section of the “Windows” or other distribution.
-2. Follow the installer instruction using the default options
-3. Download the free RStudio desktop from https://www.rstudio.com/products/rstudio/download/
-4. Follow the installation instructions using the default options
-5. Once installed, start RStudio
-6. Go into the *console* section of the RStudio IDE
+2. Follow the installer instruction using the default options.
+3. Download the free RStudio desktop from: https://www.rstudio.com/products/rstudio/download/
+4. Follow the installation instructions using the default options.
+5. Once installed, start RStudio.
+6. Go into the *console* section of the RStudio IDE.
 6. Type: `install.packages("keras")`
 7. Type: `library(keras)`
 8. Type: `install_keras()` or `install_keras(tensorflow = "gpu")`
-9. Type: `install.packages("imager")`
+
+Keras + Tensorflow + R using Anaconda
+-------------------------------------
+1. Install miniconda for python 3.7 (https://docs.conda.io/en/latest/miniconda.html) following the default options for your OS.
+2. Open a terminal.
+3. Type: `conda create -y --name deeplearning` to create a new conda environment.
+4. Type: `conda activate deeplearning` to activate this new environment.
+5. Type: `conda install -c conda-forge r-keras` to install Keras and Tensorflow.
+6. Type: `conda install -c r r-ggplot2`
 
 Test the deep learning environment using the MNIST dataset [LeCun et al. 1998]
 -------------------------------------------------------------------------------
