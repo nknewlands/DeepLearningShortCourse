@@ -2,15 +2,15 @@
 # Inpired by the code from Francois Chollet. 
 #                     "Deep learning with Python." Manning (2018) 362 pages.
 #                     and
-#                     François Chollet with J. J. Allaire
+#                     FranÃ§ois Chollet with J. J. Allaire
 #                     "Deep Learning with R." Manning (2018) 360 pages.
 # 
-# From François Chollet's books:
+# From FranÃ§ois Chollet's books:
 # "Convnets are the best type of machine-learning models for computer-vision tasks. 
-#  It’s possible to train one from scratch even on a very small dataset, with decent results.
+#  Itâ€™s possible to train one from scratch even on a very small dataset, with decent results.
 #  On a small dataset, overfitting will be the main issue. Data augmentation is a powerful way,
-#  to fight overfitting when you’re working with image data.
-#  It’s easy to reuse an existing convnet on a new dataset via feature extraction. 
+#  to fight overfitting when youâ€™re working with image data.
+#  Itâ€™s easy to reuse an existing convnet on a new dataset via feature extraction. 
 #  This is a valuable technique for working with small image datasets."
 #
 # Preparation: Unzip the file fruits_200.zip containing oranges and pinapples pictures 
@@ -73,14 +73,14 @@ model <- keras_model_sequential() %>%
   layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu",
                 input_shape = c(img_width, img_height, 3)) %>% 
   layer_max_pooling_2d(pool_size = c(2, 2)) %>% 
-  layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu") %>% 
+  layer_conv_2d(filters = 64, kernel_size = c(3, 3), activation = "relu") %>% 
   layer_max_pooling_2d(pool_size = c(2, 2)) %>% 
   layer_conv_2d(filters = 64, kernel_size = c(3, 3), activation = "relu") %>% 
   layer_max_pooling_2d(pool_size = c(2, 2)) %>% 
-  layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu") %>% 
+  layer_conv_2d(filters = 128, kernel_size = c(3, 3), activation = "relu") %>% 
   layer_max_pooling_2d(pool_size = c(2, 2)) %>% 
   layer_flatten() %>%                       # Last layers
-  layer_dense(units = 32, activation = "relu") %>% 
+  layer_dense(units = 512, activation = "relu") %>% 
   layer_dropout(rate = 0.5) %>% 
   layer_dense(units = 1, activation = "sigmoid")
   
