@@ -5,9 +5,9 @@ This directory includes files for the *Practical examples - Translation RNN and 
 
 This tutorial is in two parts.
 
-File dpsites.py describe a 1D CNN used to detect cleavage site in DNA.
+File *dpsites.py* describe a 1D CNN used to detect cleavage site in DNA.
 
-File dpsites_GRU describe the use of a GRU to accomplish the same task, but with better accuracy.
+File *dpsites_GRU.py* describe the use of a GRU to accomplish the same task, but with better accuracy.
 
 This code is a modification of code provided in:
 
