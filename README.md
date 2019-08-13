@@ -11,6 +11,6 @@ Short Course on Deep Learning for the 62nd International Statistical Institute (
 
 **Day2:**
 
-**Detecting DNA sites**: This demonstrates the use of a 1D CNN or Long Short-Term Memory (LSTM) model to detect cleavage site/binding site in DNA. Code is adapted from Zou et al. 2018. A primer on deep learning in genomics. Nat. Genet. 2019 Jan(1): 12-18.
+**Detecting sites**: This demonstrates the use of a 1D CNN or Long Short-Term Memory (LSTM) model to detect cleavage site/binding site in protein sequences. Code is adapted from Zou et al. 2018. A primer on deep learning in genomics. Nat. Genet. 2019 Jan(1): 12-18.
 
 **TimeSeries Anomaly**: This demonstrates the use of a Recurrent Neural Network (RNN) (LSTM or GRU) to detect TimeSeries anomalies in time-series based on quantile prediction.
