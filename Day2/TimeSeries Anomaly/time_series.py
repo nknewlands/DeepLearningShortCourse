@@ -211,4 +211,4 @@ plt.savefig('predicted.png', bbox_inches='tight')
 # 1. Try to adjust the batch size and the number of epoch.
 # 2. Try to add more LSTM layers or other memory cells.
 # 3. Try to train on more data.
-# 4. Try the GRU models
+# 4. Try the GRU model.
