@@ -1,4 +1,4 @@
-Tutorial on CNN¸and RNN for DNA sequences analysis
+Tutorial on CNN and RNN for DNA sequences analysis
 ==================================================
 
 This directory includes files for the *Practical examples - Translation RNN and time-series anomaly detection.*
