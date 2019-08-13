@@ -49,8 +49,6 @@ plt.plot(1.0/(48*7)*timeLags, autoCorr);
 plt.xlabel('time lag [weeks]'); plt.ylabel('correlation coeff', fontsize=12);
 plt.savefig('timelag.png', bbox_inches='tight')
 
-
-
 weekday = df[['yr', 'mt', 'd']].apply(lambda x: datetime.datetime(x['yr'], x['mt'], x['d']).weekday(),axis=1).values
 
 df['weekday'] = weekday
@@ -191,8 +189,8 @@ plt.plot(pred_50_m, color='blue')
 plt.plot(pred_10_m, color='green')
 plt.scatter(np.where(np.logical_or(pred_50_m>pred_90_m, pred_50_m<pred_10_m))[0], 
             pred_50_m[np.logical_or(pred_50_m>pred_90_m, pred_50_m<pred_10_m)], c='red', s=50)
-plt.xlabel('Number of trips')
-plt.ylabel('Date')
+plt.xlabel('Date')
+plt.ylabel('Number of trips')
 plt.title('Uncertainty for each time point (q10, q50, q90)')
 plt.savefig('quantile.png', bbox_inches='tight')
 
@@ -202,8 +200,8 @@ plt.figure(figsize=(16,8))
 plt.plot(np.exp(y_test + init[5000:]), color='red', alpha=0.4)
 plt.scatter(range(len(pred_10_m)), pred_90_m - pred_10_m)
 plt.title('Predicted number of trips')
-plt.xlabel('Number of trips')
-plt.ylabel('Date')
+plt.xlabel('Date')
+plt.ylabel('Number of trips')
 plt.savefig('predicted.png', bbox_inches='tight')
 
 ################################################################################
@@ -213,4 +211,4 @@ plt.savefig('predicted.png', bbox_inches='tight')
 # 1. Try to adjust the batch size and the number of epoch.
 # 2. Try to add more LSTM layers or other memory cells.
 # 3. Try to train on more data.
-# 4. Can you identify one of the missing step?
+# 4. Try the GRU models
