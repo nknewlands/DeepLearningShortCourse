@@ -93,7 +93,7 @@ model.add(Conv2D(32, (3, 3), input_shape=input_shape))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 
-model.add(Conv2D(32, (3, 3)))
+model.add(Conv2D(64, (3, 3)))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 
@@ -101,13 +101,13 @@ model.add(Conv2D(64, (3, 3)))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 
-model.add(Conv2D(32, (3, 3)))
+model.add(Conv2D(128, (3, 3)))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 
 # Last layers
 model.add(Flatten())
-model.add(Dense(32))
+model.add(Dense(512))
 model.add(Activation('relu'))
 model.add(Dropout(0.5)) # Dropout
 model.add(Dense(1)) # One last cell
