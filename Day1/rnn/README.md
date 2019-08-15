@@ -6,4 +6,4 @@ and the visualization using Google Tensorboard (https://www.tensorflow.org/guide
 
 It also demonstrate the concepts of Dropout, Stacking recurent layer and some validation.
 
-*Note*: you need to unzip the **jena_climate_2009_2016.csv.zip** before using the rnn.R file.
+*Note*: you need to unzip the **jena_climate_2009_2016.csv.zip** before using the RNNexample.R file.
