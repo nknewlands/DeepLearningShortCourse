@@ -1,7 +1,7 @@
 # DeepLearningShortCourse
 Short Course on Deep Learning for the 62nd International Statistical Institute (ISI) World Statistics Congress (https://www.isi2019.org/)
 
-**Day1:**
+**Tutorials** (Not necesarily in order of presentation)
 
 **Installations**: *(See this first)* Instructions for installing Keras on R or Python. There are two test files to test your installation of Keras (and Tensorflow) using the MNIST dataset.
 
@@ -20,9 +20,6 @@ Short Course on Deep Learning for the 62nd International Statistical Institute (
 **Detecting Anomolies in TimeSeries using LSTM and GRU models**: This demonstrates the use of a Recurrent Neural Network (RNN) (Long-short term Memory (LSTM) or Gated Recurrent GRU) to detect TimeSeries anomalies in time-series based on quantile prediction.
 
 **Predicting wine-quality**  Predicts wine quality using a deep neural network (DNN) with weights initialized by DBN (Deep Belief Network).
-
-
-**Day2:**
 
 **Hyperparameter optimization (Bayesian)** This example demonstrates the method of Bayesian optimization. 
 
