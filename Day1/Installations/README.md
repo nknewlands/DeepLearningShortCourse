@@ -41,6 +41,8 @@ Keras + Tensorflow + R using RStudio
 10. Type: `install.packages("dplyr")`
 11. Type: `install.packages("readr")`
 12. Type: `install.packages("tibble")`
+13. Type: `install.packages("seqinr")` 
+
 
 Keras + Tensorflow + R using Anaconda
 -------------------------------------
