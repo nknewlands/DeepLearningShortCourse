@@ -19,7 +19,7 @@ Short Course on Deep Learning for the 62nd International Statistical Institute (
 
 **Detecting Anomolies in TimeSeries using LSTM and GRU models**: This demonstrates the use of a Recurrent Neural Network (RNN) (Long-short term Memory (LSTM) or Gated Recurrent GRU) to detect TimeSeries anomalies in time-series based on quantile prediction (code in R and python).
 
-**Predicting wine-quality**  Predicts wine quality using a deep neural network (DNN) with weights initialized by DBN (Deep Belief Network).
+**Predicting wine-quality**  Predicts wine quality using a deep neural network (DNN) with weights initialized by DBN (Deep Belief Network) (code in R and python).
 
 **Hyperparameter optimization (Bayesian)** This example demonstrates the method of Bayesian optimization. 
 
