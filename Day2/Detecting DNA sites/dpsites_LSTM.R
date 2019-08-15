@@ -60,17 +60,20 @@ label_file$input_labels <- to_categorical(label_file$Labels)
 train_features=sequence$integer_encoded
 train_labels=label_file$input_labels
 
+
 ################################################################################ 
-# MODEL DEFINITION (1D CNN)                                                    #
+# MODEL DEFINITION (LSTM, one layer)                                            #
 ################################################################################
-# Model
+
+input <- layer_input(shape=c(sequence_length,1))
 model <- keras_model_sequential() %>% 
-  layer_conv_1d(filters = 32, kernel_size = 5, 
-                input_shape = c(nchar(sequence$Sites[1]), 22)) %>% 
-  layer_max_pooling_1d(pool_size =4) %>% 
-  layer_flatten() %>%                       
-  layer_dense(units = 16, activation = "relu") %>% 
-  layer_dense(units = 2, activation = "softmax") # 2 sites
+         layer_lstm(32,return_sequences = TRUE, 
+                    dropout = 0.1, 
+                    trainable = TRUE, 
+                    input_shape=c(nchar(sequence$Sites[1]), 22)) %>%
+         layer_flatten() %>%                       
+         layer_dense(units = 16, activation = "relu") %>% 
+         layer_dense(units = 2, activation = "softmax") # Sites
 
 model %>% compile(
   loss = "binary_crossentropy",
@@ -106,13 +109,15 @@ for (s in proteome) {
   seq_features <- array_reshape(seq_array,c(length(seqlist),9,22))
   predicted_labels <- model %>% predict(seq_features)
   predicted_labels = predicted_labels[,2] # we want the positive sites
-  print(qplot(seq(1,length(predicted_labels)),predicted_labels, main=name, ylab="prob. of cleavage sites (%)",xlab="relative position", geom=c("line")))
+  print(qplot(seq(1,length(predicted_labels)),predicted_labels, main=name, ylab="prob. of cleavages site (%)",xlab="relative position", geom=c("line")))
 }
 
 ################################################################################ 
 # FINAL NOTES                                                                  #
 ################################################################################
 #
-# 1. This demonstrate how to use 1D CNN to find some interesting sites in proteic
+# 1. This demonstrate how to use LSTM to find some interesting sites in proteic
 #    sequences. 
-# 2. TO DO, transform this model to a RNN.
+# 2. TO DO, transform this model to a GRU.
+# 3. Adjust dropout to avoid overfitting.
+# 4. What if we really have DNA sequences? What should be changed?
