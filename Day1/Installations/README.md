@@ -37,6 +37,10 @@ Keras + Tensorflow + R using RStudio
 6. Type: `install.packages("keras")`
 7. Type: `library(keras)`
 8. Type: `install_keras()` or `install_keras(tensorflow = "gpu")`
+9. Type: `install.packages("ggplot2")`
+10. Type: `install.packages("dplyr")`
+11. Type: `install.packages("readr")`
+12. Type: `install.packages("tibble")`
 
 Keras + Tensorflow + R using Anaconda
 -------------------------------------
