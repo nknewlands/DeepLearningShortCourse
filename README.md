@@ -15,7 +15,7 @@ Short Course on Deep Learning for the 62nd International Statistical Institute (
 
 **Detecting DNA sites**: This demonstrates the use of a 1D CNN or Long Short-Term Memory (LSTM) model to detect cleavage site/binding site in protein sequences (code in R and python). 
 
-**Weather forecasting using a RNN model** This demonstrates a Recurrent Neural Network (RNN) model to forecast the weather
+**Weather forecasting using a RNN model** This demonstrates a Recurrent Neural Network (RNN) model to forecast the weather (code in R).
 
 **Detecting Anomolies in TimeSeries using LSTM and GRU models**: This demonstrates the use of a Recurrent Neural Network (RNN) (Long-short term Memory (LSTM) or Gated Recurrent GRU) to detect TimeSeries anomalies in time-series based on quantile prediction (code in R and python).
 
@@ -26,5 +26,3 @@ Short Course on Deep Learning for the 62nd International Statistical Institute (
 **DBN** Ths Demonstrates a Deep Belief Network (DBN) model on the MNINT dataset. THe MNIST (Modified National Institute of Standards and Technology database) is a large database of handwritten digits that is commonly used for training various image processing systems.
 
 **DQN** This example demonstrates deep reinforcement learning for the 'Cartpole' balancing game.
-
-**RNN** This example show the different types of Recurent Neural Network (RNN) layers on a temperature dataset (code in R).
