@@ -1,6 +1,10 @@
 # DeepLearningShortCourse
 Short Course on Deep Learning for the 62nd International Statistical Institute (ISI) World Statistics Congress (https://www.isi2019.org/)
 
+*For questions on specific code, or general questions, use the issues tab above to leave a question/comment*
+
+
+
 **Tutorials** (Not necesarily in order of presentation)
 
 **Installations**: *(See this first)* Instructions for installing Keras on R or Python. There are two test files to test your installation of Keras (and Tensorflow) using the MNIST dataset.
