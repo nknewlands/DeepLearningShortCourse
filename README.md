@@ -1,9 +1,16 @@
 # DeepLearningShortCourse
 Short Course on Deep Learning for the 62nd International Statistical Institute (ISI) World Statistics Congress (https://www.isi2019.org/)
 
-*For questions on specific code, or general questions, use the issues tab above to leave a question/comment*
+Questions
+---------
 
+*For questions on specific code, or general questions, use the issues tab above to leave a question/comments. Note that you might need to register for a free account in github.*
 
+![How to post questions](https://github.com/nknewlands/DeepLearningShortCourse/raw/master/Post-questions.PNG)
+![How to post questions2](https://github.com/nknewlands/DeepLearningShortCourse/raw/master/Post-questions2.PNG)
+
+Sections
+--------
 
 **Tutorials** (Not necesarily in order of presentation)
 
