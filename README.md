@@ -5,7 +5,7 @@ Short Course on Deep Learning for the 62nd International Statistical Institute (
 
 **Installations**: *(See this first)* Instructions for installing Keras on R or Python. There are two test files to test your installation of Keras (and Tensorflow) using the MNIST dataset.
 
-**3 layer NN** Create a simple 3-layer neural network and show how overfitting and how accuracy varies with the number of hidden layers 
+**3 layer NN** Create a simple 3-layer neural network from scratch and show how overfitting and how accuracy varies with the number of hidden layers (code in python) 
 
 **EuroSat_Classification**: CNN classification based on ResNet, using limited dataset, to demonstrate transfer learning in modeling to obtain a faster solution (code in R and python).
 
@@ -25,4 +25,6 @@ Short Course on Deep Learning for the 62nd International Statistical Institute (
 
 **DBN** Ths Demonstrates a Deep Belief Network (DBN) model on the MNINT dataset. THe MNIST (Modified National Institute of Standards and Technology database) is a large database of handwritten digits that is commonly used for training various image processing systems.
 
-**DQN** This example demonstrates deep reinforcement learning for the 'Cartpole' balancing game 
+**DQN** This example demonstrates deep reinforcement learning for the 'Cartpole' balancing game.
+
+**RNN** This example show the different types of Recurent Neural Network (RNN) layers on a temperature dataset (code in R).
